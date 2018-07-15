@@ -10,6 +10,10 @@ buildscript {
 	}
 }
 
+plugins {
+    id 'net.ltgt.apt' version '0.10'
+}
+
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
@@ -23,8 +27,12 @@ repositories {
 	mavenCentral()
 }
 
-
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+	runtime('mysql:mysql-connector-java')
+	compile('org.springframework.boot:spring-boot-configuration-processor')
+    compile('org.projectlombok:lombok:1.18.0')
+    apt('org.projectlombok:lombok:1.18.0')
 }

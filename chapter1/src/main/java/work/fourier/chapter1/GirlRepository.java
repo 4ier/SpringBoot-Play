@@ -1,4 +1,9 @@
 package work.fourier.chapter1;
 
-public interface GirlRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface GirlRepository extends JpaRepository<GirlProperties, Integer> {
+    public List<GirlProperties> findByAge(Integer age);
 }

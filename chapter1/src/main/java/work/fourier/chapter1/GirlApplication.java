@@ -6,9 +6,12 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-public class GirlsApplication {
+public class GirlApplication {
     @Autowired
     private GirlRepository girlRepository;
+
+    @Autowired
+    private GirlService girlService;
 
     @GetMapping(path = "/girls/{id}")
     public GirlProperties find(@PathVariable Integer id) {
@@ -43,5 +46,10 @@ public class GirlsApplication {
     @GetMapping(path = "/girls/age/{age}")
     public List<GirlProperties> findGirlByAge(@PathVariable Integer age) {
         return girlRepository.findByAge(age);
+    }
+
+    @PutMapping(path = "/girls/add/two")
+    public void addTwo() {
+        girlService.addTwoGirls();
     }
 }

@@ -1,22 +1,13 @@
 server:
-  port: 8080
-girls:
-  cupSize: B
-  age: 18
-content: "cupSize = ${girls.cupSize} age = ${girls.age}"
+  port: 8081
 
-#MySQL
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/demo?characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/dbGirls?useSSL=false
     username: fourier
     password: MotoV3~~
   jpa:
-    database: MYSQL
     show-sql: true
     hibernate:
       ddl-auto: update
-      naming:
-        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
-
