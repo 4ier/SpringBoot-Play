@@ -19,15 +19,13 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="chapter1_main" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.0.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-data-jpa:2.0.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot::" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-configuration-processor:2.0.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.projectlombok:lombok:1.18.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-json:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-aop:2.0.3.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: mysql:mysql-connector-java:5.1.46" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:2.0.3.RELEASE" level="project" />
@@ -51,7 +49,7 @@
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-context:5.0.7.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.0.7.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: mysql:mysql-connector-java:5.1.46" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-orm:5.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-jdbc:5.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-commons:2.0.8.RELEASE" level="project" />
@@ -83,7 +81,7 @@
     <orderEntry type="library" name="Gradle: dom4j:dom4j:1.6.1" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.10.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.projectlombok:lombok:1.18.0" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: net.minidev:json-smart:2.3" level="project" />
     <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.7.11" level="project" />
@@ -96,6 +94,8 @@
     <orderEntry type="library" name="Gradle: net.minidev:accessors-smart:1.2" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.10.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.0.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-data-jpa:2.0.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm:5.0.4" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="chapter1_main" />
